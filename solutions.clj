@@ -208,12 +208,17 @@ true
 #(first(drop %2 %1))
 
 
-;; http://www.4clojure.com/problem/2
-;; Simple math
-;; Difficulty:	Elementary
-;; Description:  If you are not familiar with polish notation, simple arithmetic might seem confusing.
-;; Test caes:
-;; (= (- 10 (* 2 3)) __)
+;; http://www.4clojure.com/problem/22
+;; Count a Sequence
+;; Difficulty: Easy Topics: seqs core-functions
+;; Description: Write a function which returns the total number of elements in a sequence.  Special Restrictions count
+;; TestCases: 
+;; (= (__ '(1 2 3 3 1)) 5)
+;; (= (__ "Hello World") 11)
+;; (= (__ [[1 2] [3 4] [5 6]]) 3)
+;; (= (__ '(13)) 1)
+;; (= (__ '(:a :b :c)) 3)
+
 
 
 
